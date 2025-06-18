@@ -1,2 +1,2 @@
 FROM ghcr.io/zitadel/zitadel:v3.2.3
-CMD ["start-from-init", "--masterkeyFromEnv"]
+CMD ["start-from-init", "--masterkeyFromEnv", "--tlsMode", "external"]
